@@ -1,0 +1,83 @@
+<svg viewBox="0 0 200 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF" stop-opacity="1" />
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00BFFF" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="shieldShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D2A52" />
+      <stop offset="50%" stop-color="#0A1F44" />
+      <stop offset="100%" stop-color="#071833" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path
+    d="M100 20 L165 45 L172 58 L172 105 C172 125 167 140 157 155 L100 185 L43 155 C33 140 28 125 28 105 L28 58 L35 45 Z"
+    fill="url(#shieldShine)"
+    stroke="#00BFFF"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+  />
+
+  <!-- Quantum Wave Twist -->
+  <path
+    d="M 100 55
+       C 85 60, 75 70, 75 85
+       C 75 95, 82 100, 95 102
+       C 82 104, 75 110, 75 120
+       C 75 135, 85 145, 100 150
+       C 115 145, 125 135, 125 120
+       C 125 110, 118 104, 105 102
+       C 118 100, 125 95, 125 85
+       C 125 70, 115 60, 100 55 Z"
+    fill="none"
+    stroke="url(#waveGradient)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.85"
+  />
+
+  <!-- Inner wave detail -->
+  <path
+    d="M 100 65
+       C 90 68, 85 75, 85 85
+       C 85 92, 90 97, 100 98
+       C 90 99, 85 105, 85 115
+       C 85 125, 90 132, 100 138"
+    stroke="#00BFFF"
+    stroke-width="2.5"
+    fill="none"
+    opacity="0.7"
+  />
+
+  <path
+    d="M 100 65
+       C 110 68, 115 75, 115 85
+       C 115 92, 110 97, 100 98
+       C 110 99, 115 105, 115 115
+       C 115 125, 110 132, 100 138"
+    stroke="#00BFFF"
+    stroke-width="2.5"
+    fill="none"
+    opacity="0.7"
+  />
+
+  <!-- Energy particles -->
+  <circle cx="100" cy="55" r="2.5" fill="#00BFFF" opacity="0.9" />
+  <circle cx="75" cy="85" r="2" fill="#00D4FF" opacity="0.8" />
+  <circle cx="125" cy="85" r="2" fill="#00D4FF" opacity="0.8" />
+  <circle cx="100" cy="102" r="3" fill="#00BFFF" opacity="1" />
+  <circle cx="75" cy="120" r="2" fill="#00D4FF" opacity="0.8" />
+  <circle cx="125" cy="120" r="2" fill="#00D4FF" opacity="0.8" />
+  <circle cx="100" cy="150" r="2.5" fill="#00BFFF" opacity="0.9" />
+
+  <!-- Accent glow -->
+  <circle cx="100" cy="102" r="8" fill="#00BFFF" opacity="0.15" />
+  <circle cx="100" cy="102" r="12" fill="#00BFFF" opacity="0.08" />
+
+  <!-- Text -->
+  <text x="100" y="215" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Quantum Web Builders</text>
+</svg>
